@@ -1,0 +1,38 @@
+{
+  "name": "mziz",
+  "version": "1.0.0",
+  "description": "The root of the project.",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": "ambiere/mziz",
+  "funding": "https://github.com/sponsors/ambiere",
+  "type": "module",
+  "exports": {
+    "types": "./src/definitions/index.d.ts",
+    "default": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "./src/index.js",
+    "./src/definitions/index.d.ts"
+  ],
+  "keywords": [
+    "root",
+    "project",
+    "path",
+    "package",
+    "file",
+    "resolve",
+    "directory"
+  ],
+  "author": {
+    "name": "Zidikhery Mchomvu",
+    "email": "itsambiere@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ambiere/mziz/issues"
+  },
+  "homepage": "https://github.com/ambiere/mziz#readme"
+}
