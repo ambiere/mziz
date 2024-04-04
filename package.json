@@ -1,6 +1,6 @@
 {
   "name": "mziz",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The root of the project.",
   "license": "MIT",
   "main": "src/index.js",
