@@ -16,7 +16,7 @@
   },
   "files": [
     "./src/index.js",
-    "./src/definitions/index.d.ts"
+    "./src/types/index.d.ts"
   ],
   "keywords": [
     "root",
