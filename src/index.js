@@ -13,7 +13,7 @@ export default function projectRootDir(dir = cwd) {
   if (path.resolve(dir, '..') === dir) {
     throw new Error('Could not find package.json or .git in the directory tree. :(');
   } else {
-    return getRootDir(path.resolve(dir, '..'));
+    return projectRootDir(path.resolve(dir, '..'));
   }
 }
 
