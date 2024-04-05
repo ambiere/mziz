@@ -4,7 +4,7 @@
   "description": "The root of the project.",
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "ambiere/mziz",
+  "repository": "ambiere/project-root",
   "funding": "https://github.com/sponsors/ambiere",
   "type": "module",
   "exports": {
