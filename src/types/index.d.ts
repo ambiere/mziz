@@ -6,20 +6,20 @@ Synchronously find the root of the project.
 
 @example
 ```
-//      /
-//      └── root 
-//         ├── .git
-//         ├── package.json
-//         └── src
-//             ├── types
-//             └── index.js
+// /
+// └── root 
+//     ├── .git
+//     ├── package.json
+//     └── src
+//         ├── types
+//         └── index.js
 
 // `index.js`
 import projectRootDir from '@ambiere/project-root';
 
 console.log(projectRootDir());
-//=> '/root'
+// /root
 ```
 */
-export function projectRootDir(dir?: string): string | undefined
+export default function projectRootDir(dir?: string): string | undefined
 
