@@ -6,9 +6,8 @@ Synchronously find the root of the project.
 
 @example
 ```
-// /
-// └── Users
-//     └── mziz 
+//      /
+//      └── root 
 //         ├── .git
 //         ├── package.json
 //         └── src
@@ -16,11 +15,11 @@ Synchronously find the root of the project.
 //             └── index.js
 
 // `index.js`
-import projectRootDir from 'mziz';
+import projectRootDir from '@ambiere/project-root';
 
 console.log(projectRootDir());
-//=> '/Users/mziz'
+//=> '/root'
 ```
 */
-export default function projectRootDir(dir?: string): string | undefined
+export function projectRootDir(dir?: string): string | undefined
 
